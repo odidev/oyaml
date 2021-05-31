@@ -3,14 +3,11 @@ language: python
 sudo: false
 
 python:
-  - "2.7"
-  - "3.5"
-  - "3.6"
   - "3.7"
-  - "3.8"
-  - "nightly"
-  - "pypy"
-  - "pypy3"
+  
+arch:
+  - amd64
+  - arm64
 
 env:
   - PYYAML_VERSION="3.13"
